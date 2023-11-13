@@ -9,6 +9,7 @@
     "build": "parcel build src/index.html"
   },
   "dependencies": {
+    "gsap": "^3.12.2",
     "parcel": "^2.10.2"
   }
 }

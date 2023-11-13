@@ -25,6 +25,7 @@ body {
     position: fixed;
     width: 38vh;
     height: 38vh;
+    z-index: 100;
 }
 
 .logo-img {
@@ -115,18 +116,24 @@ body {
 }
 
 .video-close {
-    position: absolute;
-    top: 5vh;
-    right: 5vh;
     border: 0;
-    width: 8vh;
-    height: 8vh;
     border-radius: 100%;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    bottom: 5vh;
+    left: 47.5vw;
+    padding: 1.3vw;
+    background-image: url("./img/x.png");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
+
 
 .video-element {
     width: 80vw;
-    max-height: 80vh;
+    object-fit: contain;
 }
 
 .video_a {
