@@ -119,11 +119,11 @@ body {
 .video-close {
     border: 0;
     border-radius: 100%;
-    width: 5vw;
-    height: 5vw;
+    width: 8vh;
+    height: 8vh;
     position: absolute;
-    bottom: 5vh;
-    left: 47.5vw;
+    top: 5vh;
+    right: 5vh;
     padding: 1.3vw;
     background-image: url("./img/x.png");
     background-position: center;
@@ -134,8 +134,9 @@ body {
 
 
 .video-element {
-    width: 80vw;
-    object-fit: contain;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .video_a {

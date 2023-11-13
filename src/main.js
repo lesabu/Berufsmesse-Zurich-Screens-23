@@ -3,7 +3,7 @@ import { gsap } from "gsap"
 const DURATION = 0.5;
 
 document.querySelectorAll(".list-item").forEach(item => {
-    item.addEventListener("click", (e) => {
+    item.addEventListener("touchstart", (e) => {
         const video = document.querySelector(`.video_${e.target.dataset.id}`)
         const videoElement = video.querySelector(".video-element")
         const tl = gsap.timeline()
@@ -12,7 +12,7 @@ document.querySelectorAll(".list-item").forEach(item => {
             duration: DURATION
         })
             .to(".logo", {
-                scale: 0.65,
+                scale: 0.5,
                 transformOrigin: "top left",
                 duration: 0.25
             }, "-=0.25")
@@ -27,7 +27,7 @@ document.querySelectorAll(".list-item").forEach(item => {
 })
 
 document.querySelectorAll(".video-close").forEach(button => {
-    button.addEventListener("click", (e) => {
+    button.addEventListener("touchstart", (e) => {
         const wrapper = e.target.parentElement
         wrapper.style.transform = "translateY(150%)"
         const video = wrapper.querySelector(".video-element")
