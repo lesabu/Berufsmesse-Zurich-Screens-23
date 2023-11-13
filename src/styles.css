@@ -1,3 +1,94 @@
+@import "./normalize.css";
+
 body {
-    background-color: red;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #d9d9d6;
+}
+
+.logo {
+    position: fixed;
+    width: 38vh;
+    height: 38vh;
+    border: magenta;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.headline {
+    height: 21vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    margin: 0;
+    padding: 0 0 0 30vw;
+}
+
+.professions {
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-weight: 600;
+}
+
+.list-item__a {
+    background-color: #e6b86b;
+    height: 8vh;
+    font-size: 3.5vh;
+    padding: 0 0 0 40vw;
+}
+
+.list-item__b {
+    font-size: 3.5vh;
+    padding: 0 0 0 30vw;
+    background-color: #a5d7cc;
+    height: 13vh;
+}
+
+.list-item__c {
+    font-size: 5vh;
+    padding: 0 0 0 48vw;
+    background-color: #678287;
+    height: 15vh;
+}
+
+.list-item__d {
+    font-size: 4.5vh;
+    padding: 0 0 0 15vw;
+    background-color: #fd776b;
+    height: 12vh;
+}
+
+.list-item__e {
+    font-size: 4vh;
+    padding: 0 0 0 44vw;
+    background-color: #aeaccc;
+    height: 8vh;
+}
+
+.list-item__f {
+    font-size: 4vh;
+    padding: 0 0 0 25vw;
+    background-color: #f1e1c2;
+    height: 8vh;
+}
+
+.list-item__g {
+    font-size: 4vh;
+    padding: 0 0 0 53vw;
+    background-color: #7b9d7c;
+    height: 8vh;
 }
