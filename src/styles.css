@@ -1,5 +1,6 @@
 @import "./normalize.css";
 
+
 :root {
     --color-a: #e6b86b;
     --color-b: #a5d7cc;
@@ -128,6 +129,7 @@ body {
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
+    z-index: 100;
 }
 
 
